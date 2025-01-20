@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { constants } from "buffer";
 
 const initialState = {
   cells: new Array(64).fill({id: '', src: null}),
