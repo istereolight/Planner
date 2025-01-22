@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import { updateCells } from './plannerSlice';
 
-const hostUrl = 'http://a36a0befb148.sn.mynetname.net:3000';
+const hostUrl = 'http://172.29.92.56:3000';
 
 export const FilePannel = () => {
   const cells = useSelector(state => state.planner.cells);
